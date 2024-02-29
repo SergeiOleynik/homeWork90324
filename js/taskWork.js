@@ -11,30 +11,18 @@ const person = {
   };
 
                 /***** варіант 1 *****/ 
-//   function personInfo(obj) {
-//     const { name, age, email, city } = obj,
-//             fullName = `${name} ${age}`,
-//             contact = `${email}, ${city}`;
-//     return {contact, fullName};
-//   } 
-//   const newOb=personInfo(person),
-//         {fullName,contact}=newOb;
-
-//   alert(`fullName:  ${fullName}
-//    contact:  ${contact}`);              
-
-/****************************************************************************/               
-
-            /***** варіант 2 *****/ 
-function personInfo(obj){
+  function personInfo(obj) {
     const { name, age, email, city } = obj,
             fullName = `${name} ${age}`,
             contact = `${email}, ${city}`;
-    return alert(`fullName:  ${fullName} 
-contact:    ${contact}`);
-}
+    return {contact, fullName};
+  } 
+  const newOb=personInfo(person),
+        {fullName,contact}=newOb;
 
-personInfo(person);
+  alert(`fullName:  ${fullName}
+   contact:  ${contact}`);              
 
-/****************************************************************************/  
+/****************************************************************************/               
+
          
