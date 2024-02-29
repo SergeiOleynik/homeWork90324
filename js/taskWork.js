@@ -9,8 +9,7 @@ const person = {
     email: 'john.doe@example.com',
     city: 'New York',
   };
-
-                /***** варіант 1 *****/ 
+            
   function personInfo(obj) {
     const { name, age, email, city } = obj,
             fullName = `${name} ${age}`,
